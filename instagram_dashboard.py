@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1SVPFF2HsScqtkhL0OTaaI1ZxZ7ps8rLL
 """
 
-!pip install streamlit
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -68,7 +66,3 @@ st.plotly_chart(fig4, use_container_width=True)
 
 st.markdown("---")
 st.caption("Instagram Data Dashboard | Powered by Streamlit")
-
-!streamlit run instagram_dashboard.py
-
-!streamlit run /usr/local/lib/python3.11/dist-packages/colab_kernel_launcher.py
